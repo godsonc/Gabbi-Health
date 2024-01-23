@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://myhealth.gabbihealth.com',
+    baseUrl: 'https://admin.luximapp.com',
     viewportHeight: 550,
     viewportWidth: 660,
     experimentalStudio: true
