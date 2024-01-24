@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://admin.luximapp.com',
+    baseUrl: 'https://gabbi-users.enyata.com',
     viewportHeight: 550,
     viewportWidth: 660,
     experimentalStudio: true
