@@ -4,4 +4,5 @@ it('gabbi health', () => {
        .type('dola@yopmail.com')
     cy.get('[data-testid="test-password"]')
        .type('P@ssword01{enter}')
+    cy.url().should('include', '/appointments')
 })

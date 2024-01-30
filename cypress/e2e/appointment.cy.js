@@ -1,3 +1,4 @@
 it('gabbi health', () => {
-cy.visit('/appointment')
+cy.get('/appointments')
+ .click()
 })
