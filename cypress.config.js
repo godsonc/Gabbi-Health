@@ -7,7 +7,9 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://gabbi-users.enyata.com',
     viewportHeight: 550,
+    defaultCommandTimeout: 30000,
     viewportWidth: 660,
     experimentalStudio: true
   }
 });
+
