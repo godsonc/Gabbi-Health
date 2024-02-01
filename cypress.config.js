@@ -6,9 +6,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'https://gabbi-users.enyata.com',
-    viewportHeight: 800,
+    viewportHeight: 1000,
     defaultCommandTimeout: 30000,
-    viewportWidth: 800,
+    viewportWidth: 1500,
     experimentalStudio: true,
     force: true,
     //waitForAnimations: false,
