@@ -8,6 +8,8 @@ it('gabbi health', () => {
       .click()
     cy.get('div.cursor-pointer > .flex')
      .click()
+     cy.get('.md\:grid-cols-2 > :nth-child(1) > .grid > :nth-child(1)')
+        .click()
     //cy.get('.md\:grid-cols-2 > :nth-child(1) > .grid > :nth-child(1)')
       // .click()
 
