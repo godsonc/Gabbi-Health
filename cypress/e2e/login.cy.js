@@ -1,27 +1,27 @@
 it('gabbi health', () => {
-    cy.visit('/')
-    cy.get('[data-testid="test-emailAddress"]')
-       .type('dola@yopmail.com')
-    cy.get('[data-testid="test-password"]')
-       .type('P@ssword01{enter}')
-    cy.get('[href="/appointments"]')
+   cy.visit('/')
+   cy.get('[data-testid="test-emailAddress"]')
+      .type('dola@yopmail.com')
+   cy.get('[data-testid="test-password"]')
+      .type('P@ssword01{enter}')
+   cy.get('[href="/appointments"]')
       .click()
-    cy.get('div.cursor-pointer > .flex')
+   cy.get('div.cursor-pointer > .flex')
      .click()
-    cy.contains('In-app')
+   cy.contains('In-app')
    
-    // Selecting the first checkbox on the page
-    cy.get('input[type="checkbox"]')
+   // Selecting the first checkbox on the page
+   cy.get('input[type="checkbox"]')
       .first().click();
    
-      // In order to select the second checkbox on the page
-      //.eq(1).click();
+   // In order to select the second checkbox on the page
+   //.eq(1).click();
    
-      // In order to select the third checkbox on the page without interfering with the other checkboxes on the page
+   // In order to select the third checkbox on the page without interfering with the other checkboxes on the page
    cy.get('input[type="checkbox"]')
       .eq(3).click();
   
-      // In order to select the last checkbox on the page or just change the numerical number of the .eq(number)
+   // In order to select the last checkbox on the page or just change the numerical number of the .eq(number)
    
    
 
