@@ -8,9 +8,17 @@ it('gabbi health', () => {
       .click()
     cy.get('div.cursor-pointer > .flex')
      .click()
-     cy.get('.md\:grid-cols-2 > :nth-child(1) > .grid > :nth-child(1)')
-        .click()
-    //cy.get('.md\:grid-cols-2 > :nth-child(1) > .grid > :nth-child(1)')
-      // .click()
+    cy.contains('In-app')
+    // Selecting the first checkbox on the page
+    cy.get('input[type="checkbox"]')
+      .first().click();
+      //.eq(2).click();
+
+
+        //cy.get('input[type="checkbox"]')
+        //.debug('be.checked')
+        //.should('checkbox')
+
+    
 
 })
