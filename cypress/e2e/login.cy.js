@@ -1,15 +1,19 @@
 it('gabbi health', () => {
    cy.visit('/')
+   
    cy.get('[data-testid="test-emailAddress"]')
       .type('dola@yopmail.com')
+   
    cy.get('[data-testid="test-password"]')
       .type('P@ssword01{enter}')
+      
    cy.get('[href="/appointments"]')
       .click()
+   
    cy.get('div.cursor-pointer > .flex')
      .click()
-   cy.contains('In-app')
    
+   cy.contains('In-app')
    // Selecting the first checkbox on the page
    cy.get('input[type="checkbox"]')
       .first().click();
@@ -23,13 +27,6 @@ it('gabbi health', () => {
   
    // In order to select the last checkbox on the page or just change the numerical number of the .eq(number)
    
-   
-
-
-
-        //cy.get('input[type="checkbox"]')
-        //.debug('be.checked')
-        //.should('checkbox')
 
     
 
