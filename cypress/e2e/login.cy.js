@@ -26,6 +26,12 @@ it('gabbi health', () => {
       .eq(3).click();
   
    // In order to select the last checkbox on the page or just change the numerical number of the .eq(number)
+
+   // Assuming dateInput is the ID of the input field
+   cy.get('#dateInput')
+      .should('be.visible').type('2024-02-14');
+
+
    
 
     
