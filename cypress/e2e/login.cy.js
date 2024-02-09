@@ -31,6 +31,11 @@ it('gabbi health', () => {
    cy.get('#datepickerId')
       .click()
 
+   // Assert that the input field value matches the selected date
+   cy.get('.react-datepicker__day--023')
+      .click()
+
+
 
    
 
