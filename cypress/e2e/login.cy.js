@@ -24,6 +24,7 @@ it('gabbi health', () => {
    // In order to select the third checkbox on the page without interfering with the other checkboxes on the page
    cy.get('input[type="checkbox"]')
       .eq(3).click();
+   
   
    // In order to select the last checkbox on the page or just change the numerical number of the .eq(number)
 
@@ -34,6 +35,9 @@ it('gabbi health', () => {
    // Assert that the input field value matches the selected date
    cy.get('.react-datepicker__day--023')
       .click()
+
+   cy.contains('Note (optional)')
+      .type('Eat well')
 
 
 
