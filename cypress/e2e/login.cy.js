@@ -38,6 +38,9 @@ it('gabbi health', () => {
 
    cy.contains('Note (optional)')
       .type('Eat well')
+   
+   cy.contains('Next')
+      .click()
 
 
 
