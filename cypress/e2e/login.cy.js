@@ -42,6 +42,9 @@ it('gabbi health', () => {
    cy.contains('Next')
       .click()
 
+   cy.get('input[type="checkbox"]')
+      .eq(2).click();
+
 
 
    
