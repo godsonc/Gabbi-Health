@@ -17,7 +17,6 @@ it('gabbi health', () => {
    // Selecting the first checkbox on the page
    cy.get('input[type="checkbox"]')
       .first().click();
-   
    // In order to select the second checkbox on the page
    //.eq(1).click();
    
@@ -52,7 +51,5 @@ it('gabbi health', () => {
 
 
    
-
-    
 
 })
