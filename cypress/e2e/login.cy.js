@@ -55,6 +55,12 @@ it('gabbi health', () => {
 
    cy.contains('Next')
       .click()
+   
+   cy.contains('Proceed to payment')
+     .click()
+   
+     cy.get('.mt-8')
+      .click()
 
 
 
