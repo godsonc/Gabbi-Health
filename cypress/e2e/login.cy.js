@@ -52,8 +52,9 @@ it('gabbi health', () => {
 
    cy.contains('Continue')
       .click()
-      
-   
+
+   cy.contains('Next')
+      .click()
 
 
 
