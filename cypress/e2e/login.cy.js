@@ -50,8 +50,9 @@ it('gabbi health', () => {
    cy.get('[data-testid="test-01:00 PM"]')
       .click()
 
-   cy.contains('Next')
+   cy.contains('Continue')
       .click()
+      
    
 
 
