@@ -61,7 +61,9 @@ it('gabbi health', () => {
    
    cy.get('[data-testid="test-check"]')
       .click();
-   
+
+   // cy.contains('Pay 4000')
+   //   // .click();
    
 
 
