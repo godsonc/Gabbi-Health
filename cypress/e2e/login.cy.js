@@ -45,7 +45,7 @@ it('gabbi health', () => {
       .click()
 
    cy.get('input[type="checkbox"]')
-      .eq(2).click();
+      .eq(3).click();
    
    cy.get('[data-testid="test-01:00 PM"]')
       .click()
