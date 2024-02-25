@@ -35,11 +35,11 @@ it('gabbi health', () => {
       .click()
 
    // Assert that the input field value matches the selected date
-   cy.get('.react-datepicker__day--023')
+   cy.get('.react-datepicker__day--026')
       .click()
 
-   cy.contains('Note (optional)')
-      .type('Eat well')
+   //cy.contains('Note (optional)')
+     // .type('Eat well')
    
    cy.contains('Next')
       .click()
@@ -64,7 +64,9 @@ it('gabbi health', () => {
 
    // cy.contains('Pay 4000')
    //   // .click();
-   
+  
+   cy.get('.justify-end > .bg-success')
+      .click();
 
 
    
