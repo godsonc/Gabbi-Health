@@ -62,11 +62,11 @@ it('gabbi health', () => {
    cy.get('[data-testid="test-check"]')
       .click();
 
-   // cy.contains('Pay 4000')
-   //   // .click();
+   cy.contains('Pay 4000')
+     .click();
   
    cy.get('.justify-end > .bg-success')
-      .click();
+      .click()
 
 
    
