@@ -16,12 +16,12 @@ it('gabbi health', () => {
    
    cy.contains('In-app')
    
-   // Selecting the first checkbox on the page
+   // Selecting the first checkbox on the page.
    
    cy.get('input[type="checkbox"]')
       .first().click();
    
-      // In order to select the second checkbox on the page
+      // In order to select the second checkbox on the page.
    //.eq(1).click();
    
    // In order to select the third checkbox on the page without interfering with the other checkboxes on the page
