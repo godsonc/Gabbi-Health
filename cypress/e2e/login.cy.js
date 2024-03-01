@@ -68,6 +68,10 @@ it('gabbi health', () => {
   
    cy.get('.justify-end > .bg-success')
       .click()
+   
+
+   cy.contains('Next')
+     .click()  
 
 
    
