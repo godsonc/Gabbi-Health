@@ -16,7 +16,7 @@ it('gabbi health', () => {
    
    cy.contains('In-app')
    
-   // Selecting the first checkbox on the page. I Love you
+   // Selecting the first checkbox on the page. 
    
    cy.get('input[type="checkbox"]')
       .first().click();
