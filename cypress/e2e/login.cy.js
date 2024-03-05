@@ -9,14 +9,14 @@ it('gabbi health', () => {
       .type('P@ssword01{enter}')
       
    cy.get('[href="/appointments"]')
-      .click()
+      .click();
    
    cy.get('div.cursor-pointer > .flex')
      .click()
    
    cy.contains('In-app')
    
-   // Selecting the first checkbox on the page. 
+   // Selecting the first checkbox on the page
    
    cy.get('input[type="checkbox"]')
       .first().click();
