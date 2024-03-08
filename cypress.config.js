@@ -11,7 +11,7 @@ module.exports = defineConfig({
     viewportWidth: 1500,
     experimentalStudio: true,
     force: true,
-    //waitForAnimations: false,
+    waitForAnimations: false,
     //animationDistanceThreshold: 0
   }
 });
