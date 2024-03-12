@@ -31,7 +31,7 @@ it('gabbi health', () => {
   
    // In order to select the last checkbox on the page or just change the numerical number of the .eq(number)
 
-   // Assuming dateInput is the ID of the input field.
+   // Assuming dateInput is the ID of the input field
    cy.get('#datepickerId')
       .click()
 
