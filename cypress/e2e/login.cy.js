@@ -19,7 +19,7 @@ it('gabbi health', () => {
    // Selecting the first checkbox on the page
    
    cy.get('input[type="checkbox"]')
-      .first().click();
+      .first().click()
    
       // In order to select the second checkbox on the page.
    //.eq(1).click();
@@ -35,7 +35,7 @@ it('gabbi health', () => {
    cy.get('#datepickerId')
       .click()
 
-   // Assert that the input field value matches the selected date
+   // Assert that the input field value matches the selected date.
    cy.get('.react-datepicker__day--026')
       .click()
 
@@ -73,6 +73,8 @@ it('gabbi health', () => {
    cy.contains('Next')
      .click()  
 
+   cy.contains('e-Shift')
+     .click()
 
    
 
