@@ -12,7 +12,7 @@ module.exports = defineConfig({
     experimentalStudio: true,
     force: true,
     waitForAnimations: false,
-    //animationDistanceThreshold: 0
+    animationDistanceThreshold: 0
   }
 });
 
