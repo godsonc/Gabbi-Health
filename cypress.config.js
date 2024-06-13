@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://purple-vest.enyata.com',
+    // baseUrl: 'https://purple-vest.enyata.com',
     viewportHeight: 1000,
     defaultCommandTimeout: 30000,
     viewportWidth: 1500,
